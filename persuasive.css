@@ -1,0 +1,36 @@
+
+.persuasive__section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 120px 0 60px 0;
+}
+
+.persuasive__title {
+    color: #37373c;
+    margin: 0 0 24px;
+    max-width: 900px;
+    font-size: 54px;
+    font-weight: 500;
+    line-height: 1.25;  
+    letter-spacing: .2rem;
+    text-align: center;
+}
+
+.persuasive__title span {
+    color: #1da357;
+}
+
+.persuasive__text {
+    color: #62626c;
+    max-width: 780px;
+    text-align: center;
+    width: 100%;
+    font-family: Inter, Helvetica, Arial, sans-serif;
+    font-synthesis: none;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 36px;
+}

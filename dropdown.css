@@ -1,0 +1,90 @@
+.mega_box {
+    position: absolute; 
+    top: 65px;
+    width: 100%;
+    left: 0;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+
+.menu__left__item:hover .mega_box{
+    visibility: visible;
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+
+.mega_box .content {
+    background-color: #242526;
+    padding: 25px 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.content .row {
+    width: calc(25% - 30px);
+    line-height: 45px;
+}
+
+.content .row header {
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-weight: 600;
+    color: #1da357;
+    text-align: start;
+}
+
+.content .row .mega_links {
+    border-left: 1px solid rgba(255,255,255,0.09);
+    margin-left: -40px;
+    padding-right: 10px;
+}
+
+.content .row .mega_links:nth-child(1) {
+    border-left: 0;
+    
+}
+.content .row .mega_links header:nth-child(2) {
+    margin-left: 40px;
+}
+.content .row .mega_links:nth-child(3) {
+    border-left: 0;
+    margin-left: 0;
+}
+
+
+.content .row .mega_links li {
+    padding: 20px 20px;
+    transition: all .3s ease;
+}
+.content .row .mega_links li:hover {
+    background-color: #f2f2f2;
+}
+.content .row .mega_links li:hover a{
+    color: #1da357;
+}
+
+
+.content .row .mega_links li a {
+    line-height: 20px;
+    padding: 0 20px;
+    color: #d9d9d9;
+    display: block;
+    text-decoration: none;
+    font-size: 1.125rem;
+    font-weight: 500;
+    transition: all .3s ease;
+}
+
+
+.content .row .mega_links li p {
+    line-height: 20px;
+    color:#a1a2aa;
+    font-size: 12px;
+    display: block;
+    padding: 0 20px;
+    cursor: pointer;
+}
+
